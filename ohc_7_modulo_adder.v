@@ -2,6 +2,7 @@
 module ohc_7_modulo_adder(a,b,sum);
     input [6:0]a,b;
     output [6:0]sum;
+    
     wire [14:1]stage1;
     wire [21:1]stage2;
 
